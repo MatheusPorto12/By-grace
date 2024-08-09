@@ -1,0 +1,153 @@
+﻿@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<h1 style="padding-left:18vh;">Cadastro</h1>
+<div class="form-group">
+    <form class="form-cadastro">
+
+        <div class="row">
+            <div class="col-md-12 custom-input">
+                <label for="nome" class="form-label">Nome</label><br>
+                <input type="text" name="nome" class="form-input" id="nome" required>
+            </div> 
+
+            <div class="col-md-4 custom-input">
+                <label for="cpf" class="form-label">CPF</label><br>
+                <input type="text" name="cpf" class="form-input" id="cpf" required>
+            </div>
+
+            <div class="col-md-4 custom-input">
+                <label for="telefone" class="form-label">Telefone</label><br>
+                <input type="text" name="telefone" class="form-input" id="telefone" required>
+            </div>
+
+            <div class="col-md-4 custom-input">
+                <label for="data_nascimento" class="form-label">Data de nascimento</label><br>
+                <input type="date" name="datanas_cimento" class="form-input" id="data_nascimento" required>
+            </div>
+
+            <div class="col-md-12 custom-input">
+                <label for="e-mail" class="form-label">E-mail</label><br>
+                <input type="email" name="email" class="form-input" id="email" required>
+            </div>
+
+            <div class="col-md-6 form-group-password">
+                <Label for="senha" class="form-label">Senha</Label>
+                <input type="password" class="form-input" name="senha" id="senha" required>
+            </div>
+
+            <div class="col-md-6 form-group-password">
+                <label for="senhaConfirm" class="form-label">Confirmar Senha</label>
+                <input type="password" class="form-input" name="senhaConfirm" id="senhaConfirm" required>
+            </div>
+
+            <div class="col-md-12 custom-input" style="margin-top: 10px; text-align: center;">
+                <button type="button" class="btn btn-success submit_btn" style="margin-bottom: 10px; width: 30%; background-color: #CA696A !important">Cadastrar</button>
+            </div>
+
+        </div>
+
+       
+    </form>
+</div>
+
+@section css{
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+            background-color: white;
+        }
+
+        h2 {
+            background-color: #CA696A;
+            text-align: center;
+            height: 3vh;
+            font-size: 2vh;
+            color: #ffff;
+            justify-content: center;
+            padding: 1px;
+        }
+
+        img {
+            width: 30vh;
+        }
+
+        .li_div li {
+            display: inline-flex;
+            color: #CA696A;
+            padding-left: 9%;
+            margin-top: 2px;
+        }
+
+        .logo_img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            color: #5B2508;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .form-cadastro {
+            padding-left: 18vh;
+        }
+
+            .form-cadastro input {
+                font-size: 14px;
+                padding: 5px 10px;
+                width: 100%;
+                outline: none;
+                background: #FFFFFF;
+                color: #000000;
+                border: 1px solid #CBCBCB;
+                border-radius: 10px;
+                box-shadow: 3px 3px 2px 0px #E2E2E2;
+                transition: .3s ease;
+            }
+
+                .form-cadastro input:focus {
+                    background: #F2F2F2;
+                    border: 1px solid #CA696A;
+                    border-radius: 10px;
+                }
+
+            .form-cadastro label {
+                color: #5B2508;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+        ::placeholder {
+            text-align: center;
+        }
+
+        .form-group-endereco {
+            display: inline-block;
+            flex-direction: column;
+        }
+
+        .form-group-password {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .submit_bttn {
+            color: white;
+            background-color: #CA696A;
+            border: none;
+            width: 100px;
+            height: 30px;
+            float: right;
+            margin-right: 20vh;
+            cursor: pointer;
+        }
+    </style>
+}
+@section scripts{
+    <script src="~/Scripts/Cadastro/cadastro.js"></script>
+}

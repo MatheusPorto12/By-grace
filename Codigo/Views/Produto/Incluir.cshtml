@@ -1,0 +1,95 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model ByGrace.Model.ProdutosModel;
+
+@{
+
+    ViewData["Title"] = "Cadastro de produtos";
+
+}
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div title="Incluir imagem" class="col-md-3" id="fotoProduto" style="border: 1px solid #cacaca; border-radius: 10px; box-shadow: 8px 8px 7px -8px #c4c4c4;">
+
+        <img id="fotoExibida"></img>
+
+    </div>
+    <input type="file" id="fileFoto" hidden></input>
+    <div class="col-md-7">
+        <label>Nome do produto</label>
+        <input type="text" class="form-control" id="nomeProduto" style="margin-bottom: 10px;"></input>
+
+        <label>Descrição do produto</label>
+        <textarea class="form-control" id="descricaoProduto" style="height: 150px; margin-bottom: 10px;"></textarea>
+
+        <div class="row">
+            <div class="col-md-4">
+
+                <label>Tamanho</label>
+                <select class="form-select" id="selectTamanho">
+                    @foreach (var items in Model.Tamanhos)
+                    {
+                        <option value="@items.Value">@items.Text</option>
+                    }
+                </select>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <label>Categoria</label>
+                <select class="form-select" id="selectCategoria">
+                    @foreach (var items in Model.Categoria)
+                    {
+                        <option value="@items.Value">@items.Text</option>
+                    }
+                </select>
+
+            </div>
+            <div class="col-md-4">
+
+                <label>Quantidade</label>
+                <input class="form-control" type="number" id="qtdProduto" style="margin-bottom: 10px;"></input>
+
+            </div>
+            <div class="col-md-12">
+
+                <label>Valor do produto</label>
+                <input class="form-control valorMask" id="valorProduto" style="margin-bottom: 10px;"></input>
+
+            </div>
+
+            <div class="col-md-12">
+
+                <input id="disponivelProduto" type="checkbox" value="" class="js-switch" />
+                &nbsp;Disponibilizar produto imediatamente
+
+            </div>
+
+            <div class="col-md-12" style="text-align: center">
+
+                <button type="button" class="btn btn-outline-success" id="salvarProduto" style="margin-bottom: 10px; width: 120px;">Salvar</button>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-1"></div>
+
+</div>
+
+
+@section css{
+
+    <link rel="stylesheet" href="/fonts/Plugins/switchery/switchery.css"/>
+}
+
+@section scripts{
+
+    <script src="/Scripts/Produto/ProdutoIncluir.js?v=1"></script>
+    <script src="/fonts/Plugins/masked-inputs.js"></script>
+    <script src="/fonts/Plugins/switchery/switchery.js"></script>
+}

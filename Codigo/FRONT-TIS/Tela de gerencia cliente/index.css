@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin:0 ;
+    font-family: sans-serif;
+    background-color: white;
+}
+h2{
+     background-color: #CA696A;
+     text-align: center;
+     height: 3vh;
+     font-size: 2vh;
+     color:  #ffff;
+     justify-content: center;
+     padding: 1px;
+}
+img{
+    width:30vh;
+}
+.li_div li{
+display:inline-flex ;
+color:#CA696A;
+padding-left: 9%;
+margin-top: 2px;
+
+}
+.logo_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #5B2508;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sidebar {
+        height: 100%; /* Altura total */
+        position: fixed; /* Fixa na posição */
+        left: 0; /* No lado esquerdo */
+        padding-top: 5vh;
+        background-color:white; /* Cor de fundo */
+        overflow-x: hidden; /* Esconde o conteúdo horizontalmente */
+
+      }
+      #meu-botao {
+        background-color:#CA696A;/* Cor original do botão */
+        color: white; /* Cor do texto */
+        border: none; /* Sem borda */
+        padding: 15px 32px; /* Espaçamento interno */
+        text-align: center; /* Alinhamento do texto */
+        text-decoration: none; /* Sem sublinhado */
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer; /* Muda o cursor para uma mão quando você passa o mouse por cima */
+      }
+      
+      #meu-botao:hover {
+        background-color:#5B2508 /* Cor do botão quando o mouse passa por cima */
+      }
+  
+      /* Estilos para a tabela */
+table {
+    width: 30px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Estilos para as células da tabela */
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Estilos para o cabeçalho da tabela */
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #CA696A;
+    color: white;
+}
+
+/* Estilos para o botão de exclusão */
+button {
+    background-color: #5B2508; /* Vermelho */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Estilos para o botão de exclusão quando o mouse passa sobre ele */
+button:hover {
+    background-color: #dc3545; /* Vermelho mais escuro */
+}

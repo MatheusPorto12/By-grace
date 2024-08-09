@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin:0 ;
+    font-family: sans-serif;
+    background-color: white;
+}
+h2{
+     background-color: #CA696A;
+     text-align: center;
+     height: 3vh;
+     font-size: 2vh;
+     color:  #ffff;
+     justify-content: center;
+     padding: 1px;
+}
+img{
+    width:30vh;
+}
+.li_div li{
+display:inline-flex ;
+color:#CA696A;
+padding-left: 9%;
+margin-top: 2px;
+
+}
+.logo_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #5B2508;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-cadastro{
+  padding-left: 18vh;
+  
+}
+.form-cadastro input{
+    background-color: #E6E6E6;
+    border: none;
+    width: 90%;
+    height: 30px;
+    border-radius: 4px;
+}
+.form-cadastro label{
+    color: #5B2508;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+::placeholder{
+text-align: center;
+}
+.form-group-endereco{
+    display: inline-block;
+    flex-direction: column;
+}
+.form-group-password{
+    display: flex;
+    flex-direction: column;
+}
+.submit_bttn{
+color: white;
+background-color: #CA696A;
+border: none;
+width: 100px;
+height: 30px;
+float: right;
+margin-right: 20vh;
+cursor: pointer;
+}
+
+

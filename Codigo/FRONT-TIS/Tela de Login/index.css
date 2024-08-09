@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin:0 ;
+    font-family:'Hallway', sans-serif;
+    background-color: white;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+img{
+    width: 35vh;
+    margin: auto;
+    display: block;
+}
+
+p{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    color: #5B2508;
+    font-size: 20px;
+   
+}
+input{
+    justify-content: left;
+    align-items: left;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    height: 30px;
+    border-color: #CA696A;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-inline-start: 10px;
+    margin-bottom: 10px;
+    width: 230px;
+}
+button{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid;
+    height: 30px;
+    border-color: #5B2508;
+    margin-top: 10px;
+    margin-inline-start: 10px;
+    margin-bottom: 10px;
+    width: 230px;
+    color: #5B2508;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+button:hover{
+    background-color: #5B2508;
+    color: white;
+}
+
+
+.input-container {
+    position: relative;
+    color: #CA696A;
+}
+
+.icon {
+    position: absolute;
+    right: 0.5em;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    max-width: 24px; 
+    max-height: 24px; 
+}
+
+.eye-open {
+    content: url('/imgs/eye-open.svg');
+}
+
+.eye-closed {
+    content: url('/imgs/eye-closed.svg');
+}
+
+a{
+    text-decoration: none;
+}
+input::placeholder{
+    text-align: left;
+    padding-left: 4px; 
+    font-size: 15px;
+    color: #CA696A;
+}
+.ss {
+    text-align: right;
+    font-size: small;
+}
+
+.form_goup_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+}

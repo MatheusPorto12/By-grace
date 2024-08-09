@@ -1,0 +1,57 @@
+@{
+    ViewData["Title"] = "Confirmar pedido";
+
+}
+
+<div class="row">
+    <div id="lista_produtos" class="col-md-6">
+        @*Dinâmico*@
+    </div>
+    <div class="col-md-6" style="
+    padding-left: 40px;
+">
+        <label>
+            <h4>Atenção!</h4>
+            <div class="aviso">
+                Aceitamos pagamentos apenas por PIX. Depois de finalizar o seu pedido, abra o aplicativo do seu banco e realize o pagamento em até <strong>1 dia(Um dia)</strong>
+                Caso não identifiquemos o pagamento no sistema, o pedido será cancelado.
+                <div>Agradecemos a compreensão</div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-12" style="text-align: center;">
+                    <img src="" id="qrcodepix"></img>
+                    
+                </div>
+
+                <div class="col-md-12" style="text-align: center;">
+                    <label id="brcode"></label>
+                </div>
+
+            </div>
+            
+
+        </label>
+
+        <div style="margin-top: 20px">
+            <span>Total: R$ <a id="valor_pedido"></a></span>
+        </div>
+        <div>
+            <button type="button" class="btn" style="background-color: #ca696a; color: #fff" id="finalizarPedido">Finalizar pedido</button>
+        </div>
+    </div>
+</div>
+
+@section css{
+    <style>
+        .aviso {
+            font-size: 12px;
+        }
+    </style>
+}
+
+@section scripts {
+
+    <script src="~/Scripts/Pedido/pedido.js"></script>
+
+}

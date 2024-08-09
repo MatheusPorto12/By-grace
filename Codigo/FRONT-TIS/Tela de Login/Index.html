@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tela de Login</title>
+</head>
+<body>
+
+    <div class="container">
+        <img src="/imgs/By-grace-Logo.png"><br>
+        <p style="font-size: 90%;">Iniciar sessão<p><br>
+            <div class="form_goup_login">
+                <form class="login_group">
+                    <div class="input-container">
+                        <input class="input-field" type="text" placeholder="Usuário" name="usrnm">
+                        <i class="fa fa-user icon"></i>
+                    </div>
+            
+                    <div class="input-container">
+                        <input class="input-field" type="password" placeholder="Senha" name="psw" id="myInput">
+                        <i class="fa fa-eye icon eye-open" onclick="toggleEye()" id="eyeIcon"></i>
+                    </div>
+            
+                    <a href="#">
+                        <p style="text-align: right;font-size:70%;">Esqueceu a senha ?</p>
+                    </a>
+                    <input type="hidden" name="fazer-login" value="enviar">
+                    <button type="submit" name="submit" class="submit_bttn">ENTRAR</button>
+                    <a href="/Tela de cadastro/index.html">
+                        <p style="font-size: 80%;">Não possui conta? <strong>Criar conta</strong></p>
+                    </a>
+                </form>
+            </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

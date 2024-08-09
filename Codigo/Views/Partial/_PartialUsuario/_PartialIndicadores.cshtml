@@ -1,0 +1,30 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+ 
+}
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<div id="formGroup" class="form-group">
+    <h1>Selecione o período a ser aplicado nos indicadores</h1>
+    <select class="form-select" id="seletorAno">
+        @{
+            for (int i = DateTime.Now.Year - 3; i < DateTime.Now.Year + 3; i++)
+            {
+                    <option value="@i">@i</option>
+            }
+        }
+    </select>
+    <h4>Valor geral de vendas</h4>
+    <div id="indicadorVGV" style="width: 80vw; height: 300px; margin-top:5vh;"></div>
+
+    <h4 style="margin-top: 10vh;">Crescimento da base de clientes</h4>
+    <div id="indicadorCrescimentoCadastro" style="width: 80vw; height: 300px; margin-top:5vh;"></div>
+
+    <h4 style="margin-top: 10vh;">Quantidade de vendas por mês</h4>
+    <div id="indicadorVendasPorMes" style="width: 80vw; height: 300px; margin-top:5vh;"></div>
+</div>
+
+ @section scripts{
+    
+ }

@@ -1,0 +1,557 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ByGrace.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ByGrace.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\Scripts\\Basic.js",
+      "PackagePath": "staticwebassets\\Scripts\\Basic.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\Scripts\\Cadastro\\cadastro.js",
+      "PackagePath": "staticwebassets\\Scripts\\Cadastro\\cadastro.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\Scripts\\Carrinho\\Carrinho.js",
+      "PackagePath": "staticwebassets\\Scripts\\Carrinho\\Carrinho.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\Scripts\\Login\\login.js",
+      "PackagePath": "staticwebassets\\Scripts\\Login\\login.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\Scripts\\Pedido\\PedidoUsuario.js",
+      "PackagePath": "staticwebassets\\Scripts\\Pedido\\PedidoUsuario.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\Scripts\\Pedido\\pedido.js",
+      "PackagePath": "staticwebassets\\Scripts\\Pedido\\pedido.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\Scripts\\Produto\\Produto.js",
+      "PackagePath": "staticwebassets\\Scripts\\Produto\\Produto.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\Scripts\\Produto\\ProdutoDetalhes.js",
+      "PackagePath": "staticwebassets\\Scripts\\Produto\\ProdutoDetalhes.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\Scripts\\Produto\\ProdutoIncluir.js",
+      "PackagePath": "staticwebassets\\Scripts\\Produto\\ProdutoIncluir.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\Scripts\\Usuario\\AlterarUsuario.js",
+      "PackagePath": "staticwebassets\\Scripts\\Usuario\\AlterarUsuario.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\Scripts\\Usuario\\Indicadores.js",
+      "PackagePath": "staticwebassets\\Scripts\\Usuario\\Indicadores.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\Scripts\\Usuario\\PedidosUsuario.js",
+      "PackagePath": "staticwebassets\\Scripts\\Usuario\\PedidosUsuario.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\Scripts\\Usuario\\usuario.js",
+      "PackagePath": "staticwebassets\\Scripts\\Usuario\\usuario.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css.zip",
+      "PackagePath": "staticwebassets\\css.zip"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\Cadastro\\index.css",
+      "PackagePath": "staticwebassets\\css\\Cadastro\\index.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\Carrinho\\Carrinho.css",
+      "PackagePath": "staticwebassets\\css\\Carrinho\\Carrinho.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\Carrinho\\delete-icn.svg",
+      "PackagePath": "staticwebassets\\css\\Carrinho\\delete-icn.svg"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\Carrinho\\minus.svg",
+      "PackagePath": "staticwebassets\\css\\Carrinho\\minus.svg"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\Carrinho\\plus.svg",
+      "PackagePath": "staticwebassets\\css\\Carrinho\\plus.svg"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\Pedido.css",
+      "PackagePath": "staticwebassets\\css\\Pedido.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\css\\lightbox.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\modernize.css",
+      "PackagePath": "staticwebassets\\css\\modernize.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\nav.css",
+      "PackagePath": "staticwebassets\\css\\nav.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\owl-carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl-carousel.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\css\\templatemo-hexashop.css",
+      "PackagePath": "staticwebassets\\css\\templatemo-hexashop.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\Plugins\\masked-inputs.js",
+      "PackagePath": "staticwebassets\\fonts\\Plugins\\masked-inputs.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\Plugins\\switchery\\switchery.css",
+      "PackagePath": "staticwebassets\\fonts\\Plugins\\switchery\\switchery.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\Plugins\\switchery\\switchery.js",
+      "PackagePath": "staticwebassets\\fonts\\Plugins\\switchery\\switchery.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\imgs\\By-grace-Logo.png",
+      "PackagePath": "staticwebassets\\imgs\\By-grace-Logo.png"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\imgs\\banner01.png",
+      "PackagePath": "staticwebassets\\imgs\\banner01.png"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\imgs\\banner02.png",
+      "PackagePath": "staticwebassets\\imgs\\banner02.png"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\imgs\\banner03.png",
+      "PackagePath": "staticwebassets\\imgs\\banner03.png"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\imgs\\cadeado.svg",
+      "PackagePath": "staticwebassets\\imgs\\cadeado.svg"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\imgs\\credit_card.svg",
+      "PackagePath": "staticwebassets\\imgs\\credit_card.svg"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\imgs\\eye-closed.svg",
+      "PackagePath": "staticwebassets\\imgs\\eye-closed.svg"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\imgs\\eye-open.svg",
+      "PackagePath": "staticwebassets\\imgs\\eye-open.svg"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\imgs\\metododepagamentos.png",
+      "PackagePath": "staticwebassets\\imgs\\metododepagamentos.png"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\imgs\\pix.svg",
+      "PackagePath": "staticwebassets\\imgs\\pix.svg"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\imgs\\produtos.png",
+      "PackagePath": "staticwebassets\\imgs\\produtos.png"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\imgs\\troca.svg",
+      "PackagePath": "staticwebassets\\imgs\\troca.svg"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\accordions.js",
+      "PackagePath": "staticwebassets\\js\\accordions.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\datepicker.js",
+      "PackagePath": "staticwebassets\\js\\datepicker.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\imgfix.min.js",
+      "PackagePath": "staticwebassets\\js\\imgfix.min.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\js\\isotope.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\jquery-2.1.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-2.1.0.min.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\js\\lightbox.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\popper.js",
+      "PackagePath": "staticwebassets\\js\\popper.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\quantity.js",
+      "PackagePath": "staticwebassets\\js\\quantity.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\scrollreveal.min.js",
+      "PackagePath": "staticwebassets\\js\\scrollreveal.min.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\slick.js",
+      "PackagePath": "staticwebassets\\js\\slick.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\ByGrace\\ByGrace\\ByGrace\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ByGrace.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ByGrace.props",
+      "PackagePath": "build\\ByGrace.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ByGrace.props",
+      "PackagePath": "buildMultiTargeting\\ByGrace.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ByGrace.props",
+      "PackagePath": "buildTransitive\\ByGrace.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

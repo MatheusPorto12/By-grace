@@ -1,0 +1,72 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    @model ByGrace.Model.ClienteModel;
+    ViewData["Title"] = "Alterar " + Model.cliente.NomeCliente;
+}
+
+@section css {
+    <style>
+        
+
+    </style>
+}
+
+
+<h1 style="padding-left:18vh;">Alterar</h1>
+<div id="formGroup" class="form-group">
+    <form style="padding-left: 0 !important" class="form-cadastro">
+        <input id="codigoClienteLogado" style="display: none" value="@Model.cliente.CodigoCliente"/>
+        <div class="row">
+            <div class="col-md-12 custom-input">
+                <label for="nome" class="form-label">Nome</label><br>
+                <input type="text" name="nome" class="form-input" id="nome" required>
+            </div> 
+
+            <div class="col-md-4 custom-input">
+                <label for="cpf" class="form-label">CPF</label><br>
+                <input type="text" name="cpf" class="form-input" id="cpf" required disabled>
+            </div>
+
+            <div class="col-md-4 custom-input">
+                <label for="telefone" class="form-label">Telefone</label><br>
+                <input type="text" name="telefone" class="form-input" id="telefone" required>
+            </div>
+
+            <div class="col-md-4 custom-input">
+                <label for="data_nascimento" class="form-label">Data de nascimento</label><br>
+                <input type="date" name="datanas_cimento" class="form-input" id="data_nascimento" required disabled>
+            </div>
+
+            <div class="col-md-12 custom-input">
+                <label for="e-mail" class="form-label">E-mail</label><br>
+                <input type="email" name="email" class="form-input" id="email" required>
+            </div>
+
+            <div class="col-md-6 form-group-password">
+                <Label for="senha" class="form-label">Senha</Label>
+                <input type="password" class="form-input" name="senha" id="senha" required>
+            </div>
+
+            <div class="col-md-6 form-group-password">
+                <label for="senhaConfirm" class="form-label">Confirmar Senha</label>
+                <input type="password" class="form-input" name="senhaConfirm" id="senhaConfirm" required>
+            </div>
+
+            <div id="buttonAlterar" class="col-md-12 custom-input" style="margin-top: 10px; text-align: center;">
+                <button id="AlterarCliente" type="button" class="btn btn-success submit_btn" style="margin-bottom: 10px; width: 30%; background-color: #CA696A !important">Cadastrar</button>
+            </div>
+
+            
+
+        </div>
+
+       
+    </form>
+</div>
+
+@section scripts{
+    <script src="~/Scripts/Usuario/AlterarUsuario.js"></script>
+}
+

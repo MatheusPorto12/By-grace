@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>By-Grace-Cadastro</title>
+</head>
+<body>
+    <div class="container"></div>
+    <header class="cabeçalho">
+        <h2>Frete gratis de R$399,00 Entrega para todo o brasil!</h2>
+        <div class="logo_img">
+            <img src="imgs/By-grace-Logo.png" alt="">
+        </div>
+        <div class="li_div">
+            <li>Inicio</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+            <li>Trocas e devoluções</li>
+            <li>Guia de medidas</li>
+            <li>Rastreio</li>
+        </div>
+    </header>
+    </div>
+    <h1 style="padding-left:18vh;">Cadastro</h1>
+    <div class="form-group">
+    <form class="form-cadastro" action="#" method="post" >
+        <div class="form-group">
+            <label for="nome" class="form-label">Nome</label><br>
+            <input type="text" name="nome" class="form-input" id="nome" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="cpf" class="form-label">CPF</label><br>
+            <input type="text" name="cpf" class="form-input" id="cpf" required>
+        </div>
+
+        <div class="form-group">
+            <label for="telefone" class="form-label">Telefone</label><br>
+            <input type="text" name="telefone" class="form-input" id="telefone"  required>
+        </div>
+
+        <div class="form-group">
+            <label for="data_nascimento" class="form-label">Data de nascimento</label><br>
+            <input type="datetime" name="datanas_cimento" class="form-input" id="data_nascimento"  required>
+        </div>
+        
+        <div class="form_group">
+        <label for="e-mail" class="form-label">E-mail</label><br>
+        <input type="email" name="email" class="form-input" id="email"  required>
+        </div>
+        <div class="endereço_div">
+        <h1 class="endereco">Endereço</h1>
+
+        <div class="form-group-endereco">
+            <label for="cep" class="form-label">CEP</label><br>
+            <input type="text" class="form-input" name="cep" id="cep"  required>
+        </div>
+
+        <div class="form-group-endereco">
+            <label for="rairro" class="form-label">Bairro</label><br>
+            <input type="text" class="form-input" name="bairro" id="bairro"  required>
+        </div>
+
+        <div class="form-group-endereco">
+            <label for="rua" class="form-label">Rua</label><br>
+            <input type="text" class="form-input" name="rua" id="rua" required>
+        </div>
+
+        <div class="form-group-endereco">
+            <label for="numero" class="form-label">Numero</label><br>
+            <input type="number" class="form-input" name="numero" id="numero"  required>
+        </div>
+
+        <div class="form-group-endereco">
+            <label for="complemento" class="form-label">Complemento</label><br>
+            <input type="text" class="form-input" name="complemento" id="complemento" >
+        </div>
+
+        <div class="form-group-password">
+            <Label for="senha" class="form-label">Senha</Label><br>
+            <input type="password" class="form-input" name="senha" id="senha"  required>
+        </div>
+        <div class="form-group-password">
+            <label for="senhaConfirm" class="form-label">Confirmar Senhra</label><br>
+            <input type="password" class="form-input" name="senhaConfirm" id="senhaConfirm" required>
+        </div>
+        <div class="submit">
+            <input type="hidden" name="enviar" value="envio"><br>
+            <button type="submit" name="submit" class="submit_bttn">Cadastrar</button>
+        </div>
+        </div>
+    </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

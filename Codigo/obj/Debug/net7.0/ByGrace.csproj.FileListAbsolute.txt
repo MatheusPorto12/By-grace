@@ -1,0 +1,227 @@
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\appsettings.Development.json
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\appsettings.json
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.staticwebassets.runtime.json
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.exe
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.deps.json
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.runtimeconfig.json
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.pdb
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Azure.Core.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Azure.Identity.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Humanizer.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.CodeDom.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.Drawing.Common.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.Memory.Data.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.Runtime.Caching.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.Security.Permissions.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.Windows.Extensions.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.csproj.AssemblyReference.cache
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.GeneratedMSBuildEditorConfig.editorconfig
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.AssemblyInfoInputs.cache
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.AssemblyInfo.cs
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.csproj.CoreCompileInputs.cache
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.MvcApplicationPartsAssemblyInfo.cache
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.RazorAssemblyInfo.cache
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.RazorAssemblyInfo.cs
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets\msbuild.ByGrace.Microsoft.AspNetCore.StaticWebAssets.props
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets\msbuild.build.ByGrace.props
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ByGrace.props
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ByGrace.props
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets.pack.json
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets.build.json
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets.development.json
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\scopedcss\bundle\ByGrace.styles.css
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\scopedcss\projectbundle\ByGrace.bundle.scp.css
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.csproj.CopyComplete
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.dll
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\refint\ByGrace.dll
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.pdb
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.genruntimeconfig.cache
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ref\ByGrace.dll
+E:\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.AssemblyInfo.cs
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.RazorAssemblyInfo.cache
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.RazorAssemblyInfo.cs
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\refint\ByGrace.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.pdb
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\appsettings.json
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.staticwebassets.runtime.json
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.exe
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.deps.json
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.runtimeconfig.json
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.pdb
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Humanizer.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets\msbuild.ByGrace.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets\msbuild.build.ByGrace.props
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ByGrace.props
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ByGrace.props
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\scopedcss\bundle\ByGrace.styles.css
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\scopedcss\projectbundle\ByGrace.bundle.scp.css
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.csproj.CopyComplete
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.genruntimeconfig.cache
+C:\Users\gabri\Documents\PUC\Terceiro Semestre\TIS3\ByGrace\ByGrace\ByGrace\obj\Debug\net7.0\ref\ByGrace.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.csproj.AssemblyReference.cache
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.AssemblyInfoInputs.cache
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.AssemblyInfo.cs
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.RazorAssemblyInfo.cache
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.RazorAssemblyInfo.cs
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\appsettings.json
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.staticwebassets.runtime.json
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.exe
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.deps.json
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.runtimeconfig.json
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\ByGrace.pdb
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets\msbuild.ByGrace.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets\msbuild.build.ByGrace.props
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ByGrace.props
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ByGrace.props
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\scopedcss\bundle\ByGrace.styles.css
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\scopedcss\projectbundle\ByGrace.bundle.scp.css
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.csproj.Up2Date
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\refint\ByGrace.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.pdb
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\ByGrace.genruntimeconfig.cache
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\obj\Debug\net7.0\ref\ByGrace.dll
+E:\ByGrace\ByGrace\ByGrace\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Matheus\source\repos\ByGrace\ByGrace\bin\Debug\net7.0\Newtonsoft.Json.dll

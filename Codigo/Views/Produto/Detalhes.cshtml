@@ -1,0 +1,387 @@
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model ByGrace.Model.ProdutosModel;
+@using ByGrace.Classes.Comum;
+@using ByGrace.Constantes;
+
+@{
+
+    ViewData["Title"] = "Produtos";
+
+}
+
+@section css {
+    <style>
+        .container {
+            justify-content: center;
+            padding: 20px;
+            width: 100vw;
+        }
+
+        .card {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 0 10px;
+            flex: 1;
+            max-width: 100%;
+        }
+
+            .card img {
+                width: 100%;
+                height: 100%;
+            }
+
+        .card-content {
+            padding: 20px;
+        }
+
+            .card-content h1 {
+                color: #804000;
+                font-size: 24px;
+            }
+
+            .card-content p {
+                color: #333;
+                line-height: 1.6;
+            }
+
+            .card-content .price {
+                font-size: 24px;
+                color: #804000;
+                margin: 10px 0;
+            }
+
+            .card-content .size {
+                margin: 20px 0;
+            }
+
+                .card-content .size label {
+                    margin-right: 10px;
+                }
+
+                .card-content .size input {
+                    margin-right: 5px;
+                }
+
+            .card-content .quantity {
+                display: flex;
+                align-items: center;
+                margin: 20px 0;
+            }
+
+                .card-content .quantity input {
+                    width: 80px;
+                    text-align: center;
+                    margin-right: 10px;
+                    padding: 5px;
+                    border: 2px solid #d78c8c;
+                    border-radius: 10px;
+                }
+
+                .card-content .quantity label {
+                    margin-right: 10px;
+                }
+
+                .card-content .quantity button {
+                    padding: 10px 20px;
+                    background-color: #d78c8c;
+                    border: none;
+                    color: white;
+                    cursor: pointer;
+                    font-size: 16px;
+                    border-radius: 10px;
+                }
+
+        img {
+            width: 35vh;
+        }
+
+        .cabeçalho {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+            .cabeçalho.scroll {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Adiciona uma sombra leve na parte inferior */
+                transition: box-shadow 0.5s ease; /* Adiciona uma transição suave */
+            }
+
+        .li_div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+            .li_div li {
+                display: inline-flex;
+                color: #CA696A;
+                padding-left: 2%;
+                margin-top: 3px;
+                margin-bottom: 3px;
+            }
+
+                .li_div li a {
+                    color: #CA696A;
+                    text-decoration: none;
+                }
+
+                    .li_div li a:hover {
+                        color: #5B2508;
+                    }
+
+        .icon_div a {
+            color: #CA696A;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .logo_img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icon_div a i {
+            font-size: 24px;
+            color: #CA696A;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo_img {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        .icon_div {
+            display: flex;
+            gap: 20px;
+        }
+
+            .icon_div a {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+        .cart-count {
+            position: absolute;
+            background-color: #5B2508;
+            right: 0.01px;
+            color: white;
+            border-radius: 50%;
+            padding: 2px 5px;
+            font-size: 0.8em;
+        }
+
+        .produtos img {
+            width: 100%;
+        }
+
+        .produtos {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        h1 {
+            color: #5B2508;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .secao4 {
+            margin: 0;
+            font-family: Helvetica, sans-serif;
+        }
+
+        .secao4-div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .secao4-div-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: calc(100% / 3 - 60px);
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            background-color: white;
+            transition: all 0.5s ease;
+        }
+
+            .secao4-div-card:hover {
+                transform: scale(1.1);
+                z-index: 1;
+            }
+
+            .secao4-div-card img {
+                width: 15%;
+                height: auto;
+            }
+
+            .secao4-div-card h3 {
+                margin-bottom: 0px;
+            }
+
+        .whatsapp-link {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            border-radius: 50px;
+            background-color: #25d366;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 1px 1px 2px #888;
+            z-index: 1000;
+        }
+
+            .whatsapp-link i {
+                color: white;
+                background: transparent; /* Adiciona transparência ao fundo do ícone */
+            }
+
+        a.whatsapp-link {
+            text-decoration: none; /* Remove o sublinhado */
+            color: inherit; /* Herda a cor do elemento pai */
+        }
+
+            a.whatsapp-link:hover {
+                text-decoration: none; /* Remove o sublinhado quando o mouse passa por cima */
+            }
+
+        .fa-whatsapp {
+            margin-top: 16px;
+        }
+
+        .tag-label {
+            font-size: 10px;
+            background-color: #ca696a;
+            color: #fff;
+            padding: 5px;
+            border-radius: 6px;
+        }
+
+        .text-riscado {
+            text-decoration: line-through;
+        }
+
+        @@media (max-width: 768px) {
+            .secao4-div-card {
+                width: 100%;
+            }
+        }
+    </style>
+}
+
+<div class="container" style="display: flex;">
+    <div class="card">
+        <img src="@Url.Action("ObterImagem", "Produto", new { id = Model.Produto.CodigoProduto })" alt="Imagem do Produto" />
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <h1 id="nomeProduto">@Model.Produto.NomeProduto</h1>
+            <p id="descricaoProduto">@Model.Produto.DescricaoProduto</p>
+            <div class="size">
+                <label for="size">Tamanho</label>
+                <select class="form-select" id="selectTamanho">
+                    @foreach (var items in Model.Tamanhos)
+                    {
+                        var sel = int.Parse(items.Value) == Convert.ToInt32(Model.Produto.TamanhoProduto) ? "selected" : "";
+                        <option value="@items.Value" class="@sel">@items.Text</option>
+                    }
+                </select>
+            </div>
+            <label class="price valorMask" id="valorProduto">
+                @Rotinas.FormatarValor(Model.Produto.ValorProduto)
+            </label>
+            <div class="quantity">
+                <input id="quantidade_produto" type="number" value="1" min="1">
+                <button id="adicionarCarrinho">Comprar</button>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<div class="row">
+    <div style="display: flex">
+        <h1>Produtos relacionados</h1>
+    </div>
+    <div class="row mt-3">
+        @foreach (var prod in Model.ProdutosLista.Take(3))
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card card_produtos" id="card_@prod.CodigoProduto" data-id="@prod.CodigoProduto" style="cursor: pointer;max-width: max-content;width: 300px;min-height: 410px; max-height: 565px !important;">
+                    <div class="card-img bg-image hover-overlay ripple" data-mdb-ripple-color="light" data-id="@prod.CodigoProduto">
+                        <img class="img-fluid" style="height: 240px; border-radius: 10px 10px 0 0; object-fit: cover" src="@Url.Action("ObterImagem", "Produto", new { id = prod.CodigoProduto })" alt="Imagem do Produto" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                        </a>
+                    </div>
+
+                    <div class="card-body" data-id="@prod.CodigoProduto">
+                        <h4 class="card-title" title="@prod.NomeProduto" style="color: #CA696A">@(prod.NomeProduto.Length > 40 ? prod.NomeProduto.Substring(0, 100) + "..." : prod.NomeProduto)</h4>
+                        <p class="card-text" title="@prod.DescricaoProduto">
+                            @(prod.DescricaoProduto.Length > 100 ? prod.DescricaoProduto.Substring(0, 100) + "..." : prod.DescricaoProduto)
+                        </p>
+
+
+
+                    </div>
+                    <div style="display: flex">
+                        <h5 class="text-thin" style="color: #CA696A; padding: 1rem 1rem;">R$ @Rotinas.FormatarValor(prod.ValorProduto)</h5>
+                    </div>
+
+                    @{
+                        if (Model.TipoCliente == Constantes.TipoCliente.Administrador)
+                        {
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-outline-danger deletarProduto" id="deletarProduto_@prod.CodigoProduto" data-id="@prod.CodigoProduto" style="margin-bottom: 10px; width: auto;">Excluir</button>
+                                <button type="button" class="btn btn-outline-warning" style="margin-bottom: 10px; width: auto; float: right"><a href="/Produto/Alterar/@prod.CodigoProduto" style="text-decoration: none;" class="text-warning"> Alterar</a></button>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="card-footer">
+                                <button type="button" class="btn adicionarCarrinho" id="adicionarCarrinho_@prod.CodigoProduto" data-id="@prod.CodigoProduto" style="margin-bottom: 10px; width: 100%; background-color: #CA696A !important; color: #fff">Incluir ao carrinho</button>
+                            </div>
+                        }
+
+                    }
+
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<input hidden id="idProduto" value="@Model.Produto.CodigoProduto"></input>
+
+@section scripts {
+
+    <script src="~/Scripts/Produto/ProdutoDetalhes.js"></script>
+    <script src="~/Scripts/Carrinho/Carrinho.js"></script>
+    <script src="~/fonts/Plugins/masked-inputs.js"></script>
+
+}

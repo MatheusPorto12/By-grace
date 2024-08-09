@@ -1,0 +1,140 @@
+﻿@using ByGrace.Classes.Comum;
+@using ByGrace.Classes;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model ByGrace.Model.PedidosModel
+
+@{
+    ViewData["Title"] = "Pedidos";
+}
+
+@section css{
+    <style>
+        table {
+            width: 75vw !important;
+            border-collapse: collapse;
+            margin: 50px auto;
+        }
+
+        select{
+            color: black;
+        }
+
+        th {
+            background: #3498db;
+            color: black;
+            font-weight: bold;
+        }
+
+        td, th {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+            font-size: 18px;
+        }
+
+        .labels tr td {
+            background-color: #CA696A;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .label tr td label {
+            display: block;
+        }
+
+
+        [data-toggle="toggle"] {
+            display: none;
+        }
+    </style>
+}
+
+<div>
+    <table style="" class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Cliente</th>
+                <th scope="col">Codigo Pedido</th>
+                <th scope="col">Valor</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+        
+            @{
+                int cont = 0;
+            }
+
+            @foreach (var pedidos in Model.pedidos.Keys)
+            {
+                <tbody class="labels">
+                    <tr>
+                        <td>
+                            <label class="hidabble" for="Pedido_@pedidos.CodigoPedido">@cont</label>
+                            <input type="checkbox" name="Pedido_@pedidos.CodigoPedido" id="Pedido" data-toggle="toggle">
+                        </td>
+                        <td id="codigoClientePedido_@pedidos.CodigoPedido">@pedidos.CodigoClientePedido</td>
+                        <td id="codigoPedido">@pedidos.CodigoPedido</td>
+                        <td id="valorPedido_@pedidos.CodigoPedido">R$ @Rotinas.FormatarValor(pedidos.ValorPedido)</td>
+                        <td>
+                            @if (Model.TipoCliente == Constantes.Constantes.TipoCliente.Administrador)
+                            {
+                            <select data-id="@pedidos.CodigoPedido" id="selectStatusPedido_@pedidos.CodigoPedido" class="selectStatusPedido">
+                                    @foreach (var item in Model.status)
+                                    {
+                                        @if(item.Text.Equals(pedidos.SituacaoPedido.ToString()))
+                                        {
+                                            <option data-id="@pedidos.CodigoPedido" selected value="@item.Value">
+                                                @item.Text
+                                            </option>
+                                        }
+                                        else
+                                        {
+                                            <option data-id="@pedidos.CodigoPedido" value="@item.Value">
+                                                @item.Text
+                                            </option>
+                                        }
+                                    }
+                                </select>
+                            }
+                            else
+                            {
+                                @Rotinas.RetornarDescricaoAmigavelEnum(pedidos.SituacaoPedido)
+                            }
+                        </td>
+                    </tr>
+                </tbody>
+            <tbody style="display: none" class="rowToHide">
+                @foreach (var produtos in Model.pedidos.GetValueOrDefault(pedidos))
+                {
+                        <tr>
+                            <td></td>
+                            <td>@produtos.produtos.CodigoProduto</td>
+                            <td>@produtos.produtos.NomeProduto</td>
+                            <td>@produtos.quantidade</td>
+                            <td>R$ @Rotinas.FormatarValor(produtos.produtos.ValorProduto)</td>
+                        </tr>
+                }
+                <tr>
+                        @if(!pedidos.BrCodePedido.Equals("")){
+                            <td colspan="5">@pedidos.BrCodePedido</td>
+                        }
+                        else
+                        {
+                            <td colspan="5">Não foi gerado BrCode para esse pedido</td>
+                        }
+                </tr>
+             </tbody>
+           
+            }
+        </tbody>
+    </table>
+</div>
+
+@section scripts{
+    <script src="~/Scripts/Pedido/PedidoUsuario.js?v=1.2"></script>
+}
